@@ -5,6 +5,7 @@ import './App.css'
 import Header from './Components/Header'
 import SideBar from './Components/SideBar'
 import ProfilePic from './Components/ProfilePic'
+import Introduction from './Components/Introduction'
 
 
 function App() {
@@ -16,9 +17,9 @@ function App() {
     <SideBar/>
       <div className='ml-[90px] grid grid-cols-1 md:grid-cols-3 '>
         <div className='col-span-2'>
-          User Data
+          <Introduction/>
         </div>
-        <div>
+        <div className='hidden md:block'>
           <ProfilePic/>
         </div>
       </div>

@@ -2,8 +2,10 @@ import React from 'react'
 
 function ProfilePic() {
   return (
-    <div>
-      <img src="/user-image.jpg"/>
+    <div className='fixed' >
+      <img src="/user-imge.jpg"
+      className='j-screen object-cover'/>
+      
     </div>
   )
 }
