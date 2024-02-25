@@ -3,7 +3,7 @@ import React from 'react'
 function ProfilePic() {
   return (
     <div>
-      ProfilePic
+      <img src="/user-image.jpg"/>
     </div>
   )
 }
