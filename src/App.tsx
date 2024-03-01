@@ -6,25 +6,32 @@ import Header from './Components/Header'
 import SideBar from './Components/SideBar'
 import ProfilePic from './Components/ProfilePic'
 import Introduction from './Components/Introduction'
+import About from './Components/About'
+
 
 
 function App() {
   const [count, setCount] = useState(0)
 
   return (
-    <>
+    <div className='w-screen'>
     <Header/>
     <SideBar/>
-      <div className='ml-[90px] grid grid-cols-1 md:grid-cols-3 '>
-        <div className='col-span-2'>
+      <div className='ml-[90px] grid grid-cols-1 md:grid-cols-3'>
+
+        <div className='col-span-2 p-5 mt-[90px]'>
           <Introduction/>
+          <About/>
+          
         </div>
+
         <div className='hidden md:block'>
           <ProfilePic/>
         </div>
       </div>
+      </div>
 
-    </>
+    
   )
 }
 
