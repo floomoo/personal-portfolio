@@ -20,8 +20,8 @@ function Header() {
     },
   ];
   return (
-    <div className="flex items-center
-     w-screen justify-between border-b-[1px]">
+    <div className="flex items-center fixed
+     w-full justify-between border-b-[1px] bg-white">
       <div
         className="w-[90px] h-[90px]
         bg-black"

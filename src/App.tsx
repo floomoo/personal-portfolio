@@ -7,6 +7,7 @@ import SideBar from './Components/SideBar'
 import ProfilePic from './Components/ProfilePic'
 import Introduction from './Components/Introduction'
 import About from './Components/About'
+import Services from './Components/Services'
 
 
 
@@ -22,6 +23,7 @@ function App() {
         <div className='col-span-2 p-5 mt-[90px]'>
           <Introduction/>
           <About/>
+          <Services/>
           
         </div>
 
